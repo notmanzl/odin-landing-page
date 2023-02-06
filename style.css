@@ -1,6 +1,6 @@
 @import url(http://fonts.googleapis.com/css?family=Roboto:400,400italic,500,500italic,700,700italic,900,900italic,300italic,300,100italic,100);
 :root {
-    --page-padding: 0 450px;
+    --page-padding: 0 650px;
 }
 
 body {
@@ -103,6 +103,7 @@ a:hover {
     padding: var(--page-padding);
     padding-top: 10px;
     text-align: center;
+    padding-bottom: 70px;
 }
 
 .content h3 {
@@ -117,5 +118,77 @@ a:hover {
     padding-top: 40px;
     text-align: center;
     justify-content: space-evenly;
-    color: rgb(54, 54, 54)
+    color: rgb(54, 54, 54);
+}
+
+.imageplaceholder {
+    border: 5px solid #3882F6;
+    border-radius: 15px;
+    width: 200px;
+    height: 200px;
+}
+
+.quote {
+    flex: 1;
+    background-color: #E5E7EB;
+    padding: var(--page-padding);
+    padding-bottom: 70px;
+    padding-top: 70px;
+    text-align: end;
+}
+
+.quote p {
+    font-size: 36px;
+    font-weight: 200;
+    font-style: italic;
+    color: #1F2937;
+    text-align: justify;
+}
+
+.calltoaction {
+    flex: 1;
+    display: flex;
+    padding: var(--page-padding);
+    padding-bottom: 70px;
+    padding-top: 70px;
+}
+
+.signup {
+    flex: 1;
+    display: flex;
+    padding: 0;
+    color: #E5E7EB;
+    font-size: 18px;
+    background-color: #3882F6;
+    border-radius: 15px;
+    padding: 35px 105px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.signup h3 {
+    color: #F9FAF8;
+    font-size: 24px;
+    font-weight: extra-bold;
+    margin-bottom: 0;
+}
+
+.signup p {
+    color: #F9FAF8;
+    font-size: 18px;
+    margin-top: 0;
+}
+
+.signup button {
+    border: 2px solid white;
+}
+
+.footer {
+    flex: 1;
+    background-color: #1F2937;
+    color: #F9FAF8;
+    padding: var(--page-padding);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
 }
